@@ -18,5 +18,7 @@
         "titleBar.inactiveBackground": "#80808099",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "grey"
+    "peacock.color": "grey",
+    "javascript.preferences.importModuleSpecifierEnding": "js",
+    "typescript.preferences.importModuleSpecifierEnding": "js"
 }
