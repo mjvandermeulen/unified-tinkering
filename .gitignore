@@ -1,2 +1,4 @@
-.vscode/settings.json
-.nvmrc
+# .vscode/settings.json
+# .nvmrc
+
+node_modules
