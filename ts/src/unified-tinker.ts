@@ -11,9 +11,14 @@ import markdown from "./markdown/tinker_country.js";
 import { visitParents } from "unist-util-visit-parents";
 import { remark } from "remark";
 
+// identical to:
+//     const file = unified()
+//         .use(remarkParse)
+//         use(() => .....
+
 async function main() {
     const file = remark()
-        // .use(remarkParse)
+        // .use(remarkParse) // only needed with unified
         // .use(remarkGfm)
         .use(() => (mdast: Root) => {
             console.log("START_MARKER");
